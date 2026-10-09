@@ -8,7 +8,7 @@ Terms depend on the repo's license:
 
 | Repos | License | Terms |
 | --- | --- | --- |
-| `sanoma`, `provider-bridge`, `terraform-provider-sanoma`, `registry`, `company-template` | Apache-2.0 (or MPL-2.0 for `terraform-provider-sanoma`) | Developer Certificate of Origin (DCO) |
+| `sanoma`, `provider-bridge`, `registry`, `company-template` | Apache-2.0 | Developer Certificate of Origin (DCO) |
 | `platform` | FSL-1.1-Apache-2.0; `ee/` commercial | Contributor License Agreement (CLA) |
 
 ### DCO (Apache-licensed repos)
