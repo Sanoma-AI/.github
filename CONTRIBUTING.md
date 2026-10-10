@@ -8,7 +8,7 @@ Terms depend on the repo's license:
 
 | Repos | License | Terms |
 | --- | --- | --- |
-| `sanoma`, `provider-bridge`, `registry`, `company-template` | Apache-2.0 | Developer Certificate of Origin (DCO) |
+| `sanoma`, `provider-bridge`, `company-template` | Apache-2.0 | Developer Certificate of Origin (DCO) |
 | `platform` | FSL-1.1-Apache-2.0; `ee/` commercial | Contributor License Agreement (CLA) |
 
 ### DCO (Apache-licensed repos)
@@ -31,7 +31,7 @@ Connector tests that call real vendor sandboxes (Mercury, Gusto, Okta and others
 
 ## Connectors
 
-First-party connectors live in the `sanoma` monorepo. Community connectors live in their authors' own repos, named `sanoma-connector-<vendor>`, and are listed through [`registry`](https://github.com/Sanoma-AI/registry).
+First-party connectors live in the `sanoma` monorepo. A connector moves to its own repo, named `sanoma-connector-<vendor>`, only when someone outside the team maintains it.
 
 ## Conduct and security
 
