@@ -4,14 +4,14 @@ Thanks for helping build Sanoma. This guide applies to every public repo in the 
 
 ## Contribution terms
 
-Terms depend on the repo's license:
+Every repo takes contributions under the Developer Certificate of Origin:
 
 | Repos | License | Terms |
 | --- | --- | --- |
-| `sanoma`, `provider-bridge`, `company-template` | Apache-2.0 | Developer Certificate of Origin (DCO) |
-| `platform` | FSL-1.1-Apache-2.0; `ee/` commercial | Contributor License Agreement (CLA) |
+| `sanoma`, `provider-bridge` | FSL-1.1-ALv2 | Developer Certificate of Origin (DCO) |
+| `company-template` | Apache-2.0 | Developer Certificate of Origin (DCO) |
 
-### DCO (Apache-licensed repos)
+### DCO
 
 Sign off every commit to certify the [Developer Certificate of Origin](https://developercertificate.org/):
 
@@ -20,10 +20,6 @@ git commit -s
 ```
 
 This adds a `Signed-off-by: Your Name <you@example.com>` line. Pull requests with unsigned commits cannot be merged.
-
-### CLA (`platform`)
-
-Contributions to `platform` require a signed Contributor License Agreement before they can be merged. The CLA process will be linked here before launch.
 
 ## Tests against live vendors
 

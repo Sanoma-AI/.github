@@ -4,8 +4,7 @@ Business as Code keeps a company's operational configuration (card limits, time-
 
 ## Public repositories
 
-- [sanoma](https://github.com/Sanoma-AI/sanoma): open core: schema, planner, Cedar policies, ledger format, MCP server, local studio, CLI, first-party connectors, modules (Apache-2.0)
-- [provider-bridge](https://github.com/Sanoma-AI/provider-bridge): Go sidecar loading Terraform/OpenTofu providers (Apache-2.0)
+- [sanoma](https://github.com/Sanoma-AI/sanoma): the runtime, the app (approvals, drift, the ledger), the `npx sanoma` launcher and first-party connectors; everything needed to run it yourself (FSL-1.1-ALv2)
+- [provider-bridge](https://github.com/Sanoma-AI/provider-bridge): Go sidecar loading Terraform/OpenTofu providers (FSL-1.1-ALv2)
 - [company-template](https://github.com/Sanoma-AI/company-template): starting point for a customer's configuration repo (Apache-2.0)
 - [docs](https://github.com/Sanoma-AI/docs): product and connector documentation
-- [platform](https://github.com/Sanoma-AI/platform): hosted web app, chat agent, approvals, scheduled drift, hosted ledger (source-available, FSL-1.1-Apache-2.0)
